@@ -1,12 +1,55 @@
 body {
+    margin: 0;
+
     background-color: #f7f1eb;
+    background-image: url("../assets/imgs/fundo-vinho.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     color: #3b1e28;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 60px;
 }
 
-h1 {
-    font-size: 40px;
-    color: #731f35;
+header {
+    padding: 60px 20px 40px;
+}
+
+header h1 {
+    margin: 15px 0 0;
+    font-size: 56px;
+    color: rgba(221, 203, 187, 0.94);
+}
+
+header p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgba(221, 203, 187, 0.94);
+}
+
+main {
+    max-width: 900px;
+    margin: -40px auto 0;
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(221, 203, 187, 0.94);
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #4a1f2b;
+    font-size: 30px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+  
 }
