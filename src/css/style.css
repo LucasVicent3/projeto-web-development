@@ -2,7 +2,7 @@ body {
     margin: 0;
 
     background-color: #f7f1eb;
-    background-image: url("../assets/imgs/fundo-vinho.png");
+    background-image: url("../assets/imgs/fundo-vinho2.png.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,4 +52,41 @@ section p {
     font-size: 18px;
     line-height: 1.6;
   
+}
+div{
+    height: 250px;
+    width: auto;
+    border-radius: 25px;
+}
+.container-principal{
+    background-color: rgba(221, 203, 187, 0.94);
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.container-principal img {
+    max-width: 200px;
+    height: auto;
+    width: 650px; 
+    height: auto;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #4a1f2b;
+    font-size: 30px;
+    align-items: top;
+}
+
+.container-texto p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.container-texto{
+    margin-top: 50px;
 }
