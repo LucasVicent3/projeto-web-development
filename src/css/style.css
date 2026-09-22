@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -15,18 +18,14 @@ body {
 
 header {
     padding: 60px 20px 40px;
-}
-
-header h1 {
-    margin: 15px 0 0;
-    font-size: 56px;
-    color: rgba(221, 203, 187, 0.94);
+    position: fixed;
 }
 
 header p {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
     color: rgba(221, 203, 187, 0.94);
+    font-family: 'Cormorant Garamond', serif;
 }
 
 main {
@@ -35,8 +34,18 @@ main {
     padding: 20px;
 }
 
+.container-menu {
+    background-color: #F4EBDD;
+    margin: 20px 0;
+    border-radius: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 500%;
+}
+
 section {
-    background-color: rgba(221, 203, 187, 0.94);
+    background-color: #F4EBDD;
     margin: 20px 0;
     padding: 30px;
     border-radius: 12px;
@@ -46,20 +55,22 @@ section h2 {
     margin-top: 0;
     color: #4a1f2b;
     font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 section p {
     font-size: 18px;
     line-height: 1.6;
-  
+    font-family: 'Montserrat', sans-serif;
 }
+
 div{
     height: auto;
     width: auto;
     border-radius: 25px;
 }
 .container-principal{
-    background-color: rgba(221, 203, 187, 0.94);
+    background-color: #F4EBDD;
     display: flex;
     align-items: center;
     gap: 60px;
@@ -78,6 +89,7 @@ h3 {
     color: #4a1f2b;
     font-size: 30px;
     align-items: top;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .container-texto p {
@@ -85,6 +97,7 @@ h3 {
     line-height: 1.8;
     text-align: left;
     margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container-texto{
@@ -96,13 +109,14 @@ h3 {
     line-height: 1.6;
     text-align: justify;
     margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container-texto2{
     margin-top: 50px;
 }
 .container-principal2{
-    background-color: rgba(221, 203, 187, 0.94);
+    background-color: #F4EBDD;
     display: flex;
     align-items: center;
     gap: 60px;
@@ -118,9 +132,9 @@ h3 {
     border-radius: 25px;
 }
 
-footer {
+footer, header {
   width: 100%;
-  background-color: #370303;
+  background-color: #3B0D18;
   color: #fff;
   padding: 10px 20px;
   box-sizing: border-box;
@@ -150,4 +164,25 @@ footer {
 
 .container-rodape a:hover {
   color: #fff;
+}
+
+#banner {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.meu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo img {
+  height: 40px; 
+}
+
+.texto-header p {
+  margin: 0;
+  font-size: 16px;
 }
