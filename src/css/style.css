@@ -41,8 +41,8 @@ main {
     font-family: 'Cormorant Garamond', serif;
     padding: 10px 20px;
     box-sizing: border-box;
-    height: 500%;
 }
+
 .container-menu h1 {
     font-size: 50px;
 }
@@ -81,9 +81,7 @@ div{
 }
 
 .container-principal img {
-    max-width: 200px;
-    height: auto;
-    width: 650px; 
+    width: 200px;
     height: auto;
     padding: 20px 25px;
 }
@@ -92,7 +90,6 @@ h3 {
     margin-top: -10px;
     color: #4a1f2b;
     font-size: 30px;
-    align-items: top;
     font-family: 'Cormorant Garamond', serif;
 }
 

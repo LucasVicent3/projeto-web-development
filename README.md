@@ -59,10 +59,15 @@ vinharia-agnello/
 
 ## Equipe
 
-![Nosso primeiro site](/src/assets/imgs/screenshot.png)
+- Matheus Gomes da Silva
+- Felipe Di Loreto Garcia
+- Mahdi Moujahed Yassine Monges
+- Caio Alves Batista Frota
+- Lucas Almeida Massaro Vicente
 
-Grupo **Fiapos** 
+## GitHub Pages
 
+https://projeto-web-development.github.io/vinharia-agnello/
 ---
 
 © 2026 Fiapos. Primeiro projeto Web.
