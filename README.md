@@ -59,7 +59,9 @@ vinharia-agnello/
 
 ## Equipe
 
-Grupo **Fiapos** — Fiapos@fiap.com.br
+![Nosso primeiro site](/src/assets/imgs/screenshot.png)
+
+Grupo **Fiapos** 
 
 ---
 
